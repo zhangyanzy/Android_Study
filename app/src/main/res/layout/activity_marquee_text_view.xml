@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_marquee_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tarenwang.android_study.Marquee.MarqueeTextViewActivity">
+
+    <com.tarenwang.android_study.Marquee.MarqueeText
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:text="shdbasfboaubfuafbuoashfoashfiashfasioasfjijasfiasjasfhasifasifhs"
+        android:textSize="18dp" />
+
+    <com.tarenwang.android_study.Marquee.MarqueeText
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:text="shdbasfboaubfuafbuoashfoashfiashfasioasfjijasfiasjasfhasifasifhs"
+        android:textSize="18dp" />
+
+
+</LinearLayout>
